@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jboss>
+	
+	<security-domain> java:/jaas/defaultSD</security-domain
+	<valve>
+		<class-name>org.jboss.web.rewrite.RewriteValve</class-name>
+	</valve>
+
+</jboss>
